@@ -1,3 +1,7 @@
+TimeTabler
+generates course timetables with genetic algorithm.
+
+-------------------------------------------------------------
 # timetablerBE (backend)  Service
 
 ## Versioning
