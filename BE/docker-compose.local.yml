@@ -1,0 +1,21 @@
+version: '2'
+services:
+  timetablerBE:
+    container_name: timetabler-container
+    image: timetabler-image
+    build:
+      context: .
+    volumes:
+      - /data/log:/log
+      - ./:/var/app
+    env_file: ./variables.env
+    environment:
+      - NODE_ENV=development
+    ports:
+      - "9000:9000"
+
+
+
+
+
+
